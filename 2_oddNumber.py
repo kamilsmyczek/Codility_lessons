@@ -18,6 +18,7 @@ def solution(A):
                 return A[idx-1]
             cnt = 1
         print('For: i=', A[idx], ', cnt=', cnt, sep='')
+        
     if cnt % 2:
         return last
     else:
